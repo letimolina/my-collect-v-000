@@ -6,11 +6,10 @@ def my_collect(collection)
     collection_two = []
     i = 0
     while i < collection.length 
-    
- collection_two << yield(collection[i])
- i += 1
- end
- collection_two
-end
+     collection_two << yield(collection[i])
+       i += 1
+  end
+   collection_two
+  end
 end
 
